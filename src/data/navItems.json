@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Оплата", "url": "/payment" },
+  { "id": 2, "title": "Розклад", "url": "/schedule"},
+  { "id": 2, "title": "Контакти", "url": "/contacts"}
+]

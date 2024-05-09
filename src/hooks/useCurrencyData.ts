@@ -2,6 +2,8 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Currency } from '../types/currency';
+import { findEuro } from '../helpers/findEuro';
+import { normalizeCurrency } from '../helpers/normalizeCurrency';
 
 const useCurrencyData = () => {
   const [currencies, setCurrencies] = useState<Currency[]>([]);
@@ -36,7 +38,13 @@ const useCurrencyData = () => {
     }
   }, []);
 
-  return {currencies, loading, error };
+  const euroRate = findEuro(currencies);
+
+  if (euroRate) {
+    normalizeCurrency(euroRate);
+  }
+
+  return {euroRate, loading, error };
 };
 
 export default useCurrencyData;
