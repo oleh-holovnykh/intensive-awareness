@@ -3,6 +3,7 @@ import { NavBar } from './components/NavBar/NavBar';
 import navItems from './Data/navItems.json';
 import Payment from './pages/Payment/Payment';
 import { Info } from './pages/Info/Info';
+import Contacts from './pages/Contacts/Contacts';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route index element={<Payment />} />
             <Route path='payment' element={<Payment />} />
             <Route path='schedule' element={<Info />} />
+            <Route path='contacts' element={<Contacts />} />
           </Routes>
         </div>
       </div>

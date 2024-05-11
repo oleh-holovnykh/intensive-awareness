@@ -1,7 +1,5 @@
 import React from 'react';
-import { CopyButton } from '../../components/CopyButton';
 import ie from '../../data/individualEntrepreneur.json';
-import CurrencyData from '../../components/CurrencyData/CurrencyData';
 import useCurrencyData from '../../hooks/useCurrencyData';
 
 const Payment: React.FC = () => {
@@ -23,23 +21,23 @@ const Payment: React.FC = () => {
 
   return (
     <div className='text-left w-max mt-2 mx-auto text-gray-600'>
-      <CurrencyData />
       <div className='mb-2'>
-        Cума: {sum}
+        <strong>Cума передплати (€50): {sum} {`грн (поточний курс: ${euroRate!.rateSell})`} </strong> <br />
+        🧾 Після оплати, будь ласка, пришліть скріншот <br /> квитанції <a className="text-blue-600 hover:underline" target="_blank" href="https://t.me/oleh_holovnykh">t.me/oleh_holovnykh</a>
       </div>
       <p className='bg-yellow-100 p-2 inline-block'>Реквізити:</p>
       <br />
-      {ie.recipient} <CopyButton value={ie.recipient} />
+      {ie.recipient} 
       <br />
-      IBAN: {ie.iban} <CopyButton value={ie.iban} />
+      IBAN: {ie.iban} 
       <br />
-      ІПН/ЄДРПОУ: {ie.id} <CopyButton value={ie.id} />
+      ІПН/ЄДРПОУ: {ie.id} 
       <br />
-      Акціонерне товариство: {ie.bank} <CopyButton value={ie.bank} />
+      Акціонерне товариство: {ie.bank} 
       <br />
-      МФО: {ie.mfo} <CopyButton value={ie.mfo} />
+      МФО: {ie.mfo} 
       <br />
-      ОКПО Банку: {ie.okpo} <CopyButton value={ie.okpo} />
+      ОКПО Банку: {ie.okpo}
       <br />
       <br />
       🔸Призначення платежу:
