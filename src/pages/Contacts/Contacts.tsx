@@ -3,7 +3,7 @@ import React from 'react';
 const Contacts: React.FC = () => {
   return (
     <div className='text-left w-max mt-2 mx-auto text-gray-600 whitespace-normal break-words'> 
-      <div>
+      <div className='ml-2'>
         <strong>Форма реєстрації:</strong><br />
         <a target='blank' 
           className='text-blue-600 underline hover:text-blue-700' 
