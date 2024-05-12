@@ -41,7 +41,7 @@ const Contacts: React.FC = () => {
           href="https://maps.app.goo.gl/9VBWnWeXQ3MsvnVc6">
             https://maps.app.goo.gl/9VBWnWeXQ3MsvnVc6
         </a> <br />
-        <i>бронювання проживання через організатора</i> <a
+        <i>бронювання проживання у організатора</i> <a
           target='blank' 
           className='text-blue-600 underline hover:text-blue-700 italic' 
           href="https://t.me/oleh_holovnykh">
