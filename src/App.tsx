@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route index element={<Payment />} />
             <Route path='payment' element={<Payment />} />
-            <Route path='schedule' element={<Info />} />
+            <Route path='info' element={<Info />} />
             <Route path='contacts' element={<Contacts />} />
           </Routes>
         </div>
