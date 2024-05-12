@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Info: React.FC = () => {
   return (
-    <div className='text-left break-words whitespace-normal max-w-300 w-max mt-2 mx-auto text-gray-600 break-all ml-2'>
+    <div className='text-left whitespace-normal break-words max-w-300 w-max mt-2 mx-auto text-gray-600 break-all'>
       <div className='ml-2'>
         <div className='mb-2'>
           <strong>💳Вартість інтенсиву при передплаті:</strong>
