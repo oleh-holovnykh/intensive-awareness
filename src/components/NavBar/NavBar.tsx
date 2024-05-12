@@ -12,7 +12,7 @@ export const NavBar: React.FC<Props> = React.memo(({ navItems }) => (
     className="bg-white h-16 shadow-sm"
     data-cy="Nav"
   >
-    <div className="mx-auto px-4 h-full">
+    <div className="mx-auto px-4 h-full ">
       <div className="flex block h-full justify-center">
         {navItems.map(({ id, url, title }) => (
           <NavLink
