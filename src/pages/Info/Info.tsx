@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Info: React.FC = () => {
   return (
-    <div className='text-left break-words max-w-300 w-max mt-2 mx-auto text-gray-600 break-all'>
+    <div className='text-left break-words whitespace-normal max-w-300 w-max mt-2 mx-auto text-gray-600 break-all ml-2'>
       <div className='ml-2'>
         <div className='mb-2'>
           <strong>💳Вартість інтенсиву при передплаті:</strong>
@@ -70,8 +70,8 @@ export const Info: React.FC = () => {
             </table>
           </div>
         </div>
-        <span className='bg-yellow-100 break-words'> Доплата за інтенсив/проживання/харчування</span> <br />
-        <span className='bg-yellow-100 break-words'> готівкою або на <Link to='/payment' className="text-blue-500 underline hover:text-blue-700">ФОП</Link> до 2 серпня</span><br />
+        <span className='bg-yellow-100 whitespace-normal break-words'> Доплата за інтенсив/проживання/харчування</span> <br />
+        <span className='bg-yellow-100 whitespace-normal break-words'> готівкою або на <Link to='/payment' className="text-blue-500 underline hover:text-blue-700">ФОП</Link> до 2 серпня</span><br />
       </div>
     </div>
   );
