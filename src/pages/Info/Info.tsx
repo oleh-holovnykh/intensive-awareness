@@ -71,8 +71,7 @@ export const Info: React.FC = () => {
           </div>
         </div>
         <span className='bg-yellow-100 break-words'> Доплата за інтенсив/проживання/харчування</span> <br />
-        <span className='bg-yellow-100 break-words'> готівкою або на <Link to='/payment' className="text-blue-500 underline hover:text-blue-700">ФОП</Link></span><br />
-        <span className='bg-yellow-100 break-words'> до 2 серпня</span>
+        <span className='bg-yellow-100 break-words'> готівкою або на <Link to='/payment' className="text-blue-500 underline hover:text-blue-700">ФОП</Link> до 2 серпня</span><br />
       </div>
     </div>
   );
