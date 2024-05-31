@@ -45,7 +45,7 @@ export const Info: React.FC = () => {
                 </tr>
                 <tr className='text-left bg-gray-100'>
                   <td>Новий корпус (2-х місні)</td>
-                  <td>0</td>
+                  <td>2</td>
                   <td>3850</td>
                 </tr>
                 <tr className='text-left'>
