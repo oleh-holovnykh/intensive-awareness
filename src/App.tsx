@@ -8,8 +8,8 @@ import Contacts from './pages/Contacts/Contacts';
 function App() {
   return (
     <>
-      <div className='text-center text-lg mb-2 mt-2'><b>2-9.08.24 Інтенсив Awareness</b><br />
-      Влад Кріпа, Олена Голованова</div>
+      <div className='text-center text-lg mb-2 mt-2'><b>2-9.08.24 Інтенсив Awareness</b>
+      </div>
       <NavBar navItems={navItems} />
 
       <div className='section'>
